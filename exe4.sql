@@ -1,0 +1,1 @@
+SELECT lastname,gender FROM users ORDER BY gender ASC, lastname DESC;

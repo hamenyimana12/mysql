@@ -1,0 +1,1 @@
+SELECT lastname,firstname,city FROM users ORDER BY city DESC LIMIT 1,4;

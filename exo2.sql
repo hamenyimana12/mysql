@@ -1,0 +1,1 @@
+SELECT lastname, date_of_birth FROM users ORDER BY date_of_birth DESC LIMIT 3;
