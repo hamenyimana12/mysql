@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN weight_kg INT(5) NOT NULL;
