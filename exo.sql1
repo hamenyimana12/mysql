@@ -1,0 +1,8 @@
+1) SELECT * FROM users WHERE date_of_birth < "2000-01-01";
+
+2) SELECT * FROM users WHERE weight_kg > 70;
+
+3) SELECT * FROM users WHERE weight_kg > 65 AND gender = 'F';
+
+
+4) SELECT * FROM users WHERE gender = "M" AND weight_kg < 90;
