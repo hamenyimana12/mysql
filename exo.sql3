@@ -1,0 +1,9 @@
+1) SELECT firstname, lastname, gender, weight_kg FROM users WHERE weight_kg > 50 AND gender = 'f' ORDER BY firstname DESC;
+
+2) SELECT firstname, lastname, gender, city FROM users WHERE gender = 'm' AND city LIKE "%a%" ORDER BY lastname ASC;
+
+3) SELECT * FROM users WHERE date_of_birth < "1999-01-15" AND weight_kg > 65 ORDER BY weight_kg DESC;
+
+4) SELECT firstname, lastname, weight_kg, gender,date_of_birth FROM users WHERE gender = "M" OR gender = "F" OR weight_kg > 90 OR firstname LIKE "B%" OR date_of_birth >= "1990-02-01" ORDER BY date_of_birth DESC;
+
+5)  SELECT * FROM users WHERE firstname LIKE "%c%" OR lastname LIKE "%e%" ORDER BY lastname LIMIT 3;
