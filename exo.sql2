@@ -1,0 +1,12 @@
+SELECT * FROM users WHERE firstname LIKE "J%";
+
+1) SELECT firstname, lastname FROM users WHERE lastname LIKE "B%" ORDER BY lastname DESC;
+
+
+2) SELECT lastname, firstname FROM users WHERE firstname LIKE "%a%" AND gender = 'F' ORDER BY firstname ASC;
+
+3) SELECT firstname,lastname FROM users WHERE firstname NOT LIKE "%a%" AND gender = 'm';
+
+4) SELECT * FROM users WHERE firstname LIKE "%e";
+
+5) SELECT firstname, lastname, weight_kg FROM users WHERE lastname LIKE "%e%" ORDER BY weight_kg DESC;
